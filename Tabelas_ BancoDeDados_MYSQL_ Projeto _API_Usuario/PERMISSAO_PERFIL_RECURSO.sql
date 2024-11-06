@@ -1,6 +1,6 @@
 #BANCO - PermissãoPerfilRecurso
 
-#CREATE UsuarioPerfil_recus 
+#CREATE permissao_perfil_recurso;
 INSERT INTO UsuarioPerfil_recuso (id_perfil, id_recurso) 
 VALUES ('1', '1');
 

@@ -4,6 +4,7 @@
 INSERT INTO UsuarioPerfil (id_usuario, id_perfil) 
 VALUES ('1', '1');
 #-----------------------------
+#READ usuario
 describe usuario_perfil;
 select * from usuario_perfil;
 

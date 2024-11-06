@@ -3,7 +3,8 @@
 #CREATE UsuarioPerfil_recus 
 INSERT INTO UsuarioPerfil_recuso (id_perfil, id_recurso) 
 VALUES ('1', '1');
- 
+
+ #READ perfil
  describe permissao_perfil_recurso;
  select * from permissao_perfil_recurso;
  #--------------------

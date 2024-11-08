@@ -1,23 +1,23 @@
 #BANCO - UsuarioPerfil
 
 #CREATE UsuarioPerfil
-INSERT INTO UsuarioPerfil (id_usuario, id_perfil) 
+INSERT INTO perfil_Usuario (id_usuario, id_perfil) 
 VALUES ('1', '1');
 
 #-----------------------------
 #READ usuario
-describe usuario_perfil;
-select * from usuario_perfil;
+describe perfil_Usuario;
+select * from perfil_Usuario;
 
  #--------------------
  #UPDATE 
- update UsuarioPerfil
+ update perfil_Usuario
  set id = '1'
  where id = '2';
  #--------------------
  
  #DELETE
- delete from UsuarioPerfil
+ delete from perfil_Usuario
  where id ='1';
  
  #--------------------
@@ -27,4 +27,4 @@ select * from usuario_perfil;
  #Reativar as restrições de chave estrangeira:
  SET FOREIGN_KEY_CHECKS = 1;
  #Reinicializar ID usuário
- truncate table UsuarioPerfil;
+ truncate table perfil_Usuario;
